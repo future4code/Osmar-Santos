@@ -1,0 +1,3 @@
+# Aprendizados da semana
+
+Nessa primeira semama eu aprendi a usar o **terminal**, usando seus comandos para criar diretórios, arquivos, assim como vove-los e/ou excluilos e navegar entre os mesmos. A experinência com o **git** foi boa, demorei um pouco para entender o conseito da Branch mas depois foi facíl entender o processo e a função de cada código. E por fim e não menos importante o **VS CODE**, nesse me abituei rapidamente até já baixei algumas extensões para me ajudar. Obrigado **LABENU**
