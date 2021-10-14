@@ -97,4 +97,49 @@ no console se retirássemos o break que está logo acima do default
 
 // // 2° Exercício 
 
-//
+// const turnoUsuario = prompt("Em qual peŕiodo você estuda? digite: M (matutino) ou V (Vespertino) ou N (Noturno)")
+
+// if (turnoUsuario === "M") {
+//   console.log("Bom dia!")
+// } else if (turnoUsuario === "V") {
+//   console.log("Boa tarde!")
+// } else if (turnoUsuario === "N") {
+//   console.log("Boa noite!")
+// }
+
+// // 3° Exercício 
+
+// const turnoUsuario = prompt("Em qual peŕiodo você estuda? digite: M (matutino) ou V (Vespertino) ou N (Noturno)")
+// let resposta
+
+// switch (turnoUsuario) {
+//     case 'M':
+//         resposta = "Bom dia"
+//         break;
+//     case 'V':
+//         resposta = "Bom Tarde"
+//         break;
+//     case 'N':
+//         resposta = "Boa Noite"
+//         break;
+
+// }
+
+// console.log(resposta)
+
+// // 4° Exercício 
+
+
+// let genero = prompt("Qual o gênero de filme você vai assistir?")
+// let preco = prompt("Qual o preço do ingresso?")
+
+// if (genero === "fantasia" && preco < 15) {
+//     console.log("Bom filme!")
+// } else {
+//     console.log("Escolha outro filme")
+// }
+
+
+
+
+
