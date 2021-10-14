@@ -140,6 +140,3 @@ no console se retirássemos o break que está logo acima do default
 // }
 
 
-
-
-
