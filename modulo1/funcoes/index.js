@@ -115,3 +115,15 @@ Será impresso no terminal: true, true, true */
 // console.log(`Subtração ${subtracao(numero1, numero2)}`)
 // console.log(`Multiplicação ${multiplicacao(numero1, numero2)}`)
 // console.log(`Divisão ${divisao(numero1, numero2)}`)
+
+
+function minhaFuncao(arr){
+    const novoArray = arr.map(elemento =>
+    {
+      return elemento %1
+    });
+    
+    return novoArray
+}
+    
+    console.log(minhaFuncao([1, 2, 3]))

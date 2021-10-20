@@ -13,7 +13,7 @@
 
 // // b-)Compare a igualdade entre a===b
 // function checarIgualdade(a, b) {
-//     return `No comparador de igualdade ${a} !== ${b} é ${a !== b}`
+//     return `No comparador de igualdade ${a} === ${b} é ${a === b}`
 
 // }
 // console.log(checarIgualdade(3, 3))
@@ -41,40 +41,44 @@
 
 // // Exercício 3------------------------------------------------------------------------------------
 
-const cadastro = (nomeDoUsario, anoDeNascimento, senhaDoUsuario, nacionalidade) => {
+// const cadastro = (nomeDoUsario, anoDeNascimento, senhaDoUsuario, nacionalidade) => {
 
-    if ((2021 - anoDeNascimento) > 18) {
-        if (senhaDoUsuario.length >= 5) {
-            if (nacionalidade.toLowerCase() === 'brasileira' || nacionalidade.toLowerCase() === 'brasileiro') {
-                const usuario = [nomeDoUsario, anoDeNascimento, senhaDoUsuario, nacionalidade]
-                return usuario
-            } else {
-                return 'Você não é brasileira'
-            }
-        } else {
-            return 'A senha deve conter no mínimo 6 caracteres'
-        }
-    } else {
-        return 'Você não tem 18 anos'
-    }
+//     if ((2021 - anoDeNascimento) > 18) {
+//         if (senhaDoUsuario.length >= 5) {
+//             if (nacionalidade.toLowerCase() === 'brasileira' || nacionalidade.toLowerCase() === 'brasileiro') {
+//                 const usuario = [nomeDoUsario, anoDeNascimento, senhaDoUsuario, nacionalidade]
+//                 return usuario
+//             } else {
+//                 return 'Você não é brasileira'
+//             }
+//         } else {
+//             return 'A senha deve conter no mínimo 6 caracteres'
+//         }
+//     } else {
+//         return 'Você não tem 18 anos'
+//     }
 
-    // if ((2021 - anoDeNascimento) > 18 && senhaDoUsuario.toString().length >= 5 && nacionalidade.toLowerCase() === 'brasileira') {
-    //     const usuario = [nomeDoUsario, anoDeNascimento, senhaDoUsuario, nacionalidade]
-    //     return usuario
-    // } else {
-    //     return 'Você não possui os requisitos'
-    // }
+// if ((2021 - anoDeNascimento) > 18 && senhaDoUsuario.toString().length >= 5 && nacionalidade.toLowerCase() === 'brasileira') {
+//     const usuario = [nomeDoUsario, anoDeNascimento, senhaDoUsuario, nacionalidade]
+//     return usuario
+// } else {
+//     return 'Você não possui os requisitos'
+// }
 
 
-}
-console.log(cadastro('Bianca', 2001, 123456, 'brasileiro'));
+// }
+// console.log(cadastro('Bianca', 2001, 123456, 'brasileiro'));
 
 // Exercício 4-----------------------------------------------------------------------------------------------
 
 // const login = () => {
 //     const login = "labenu"
-//     //  Sua lógica aqui
 
+//     const senha = prompt("Digite a senha.")
+
+//     if (senha === login) {
+//         return 'Usuário Logado'
+//     } else { return 'Senha inválida' }
 // }
 
 // console.log(login());
@@ -83,10 +87,23 @@ console.log(cadastro('Bianca', 2001, 123456, 'brasileiro'));
 
 // const primeiraDose = () => {
 
-//     //  Sua lógica aqui
+//     const nome = prompt('Digite seu nome')
+//     const vacina = prompt('Qual vaicna você tomou?')
+//     let tempo = [28, 90, 90]
+//     let data = [20, 8, 2021]
+//     let proximaVacina
+//     if (vacina === "Coronavac") {
+       
 
-
+//     }
+//     if (vacina === "Astrazenica") {
+//         return tempo[1]
+//     }
+//     if (vacina === "Pfizer") {
+//         return tempo[2]
+//     }
 // }
+
 // console.log(primeiraDose())
 
 
